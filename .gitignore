@@ -1,0 +1,11 @@
+# Environment
+.venv
+
+# Datasets
+flower_images
+
+# key txt
+openai.txt
+
+# model
+model
