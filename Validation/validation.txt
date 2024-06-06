@@ -1,0 +1,17 @@
+Validation of "flower_classification_scratch":
+When i startet with building the model, i always evalutated it with the validation set at the end of the build.
+For the first training, i got an accuracy of about 77%. I then tried to improve it. For the next runs i got a very good
+accuracy for my training set but not really good accuracy of my validation set which means my model overfits, so i tried to get rid of that.
+
+I tried to improve my model and stop it from overfitting it with batchnormalization, dropout, early stopping and data augmentation. After i
+could handle the overfitting, i had a validation accuracy of about 75%. I also tried hyperparameter search with keras-tuner but it did not work better.
+After that i startet using transfer learning.
+
+Validation of "flower_classification_transferlearning":
+With transferlearning i got a very good accuracy after trying some combinations of dropout and dataaugmentation. I added 2 dense layers on top of the 
+existing model and got an accuracy of 90%
+
+Validation with Dall-e:
+After i safed the model i was happy with, i built a script to test the model ("test_model.py"). To test a model i implemented a Call to DALL-E to generate me pictures of
+a flower (from one of the categories) and let it test with my model. So each time i run the script, it will generate 10 pictures of random chosen category and let it
+predict. It then saves the pridictions and images in a pdf file.

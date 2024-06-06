@@ -1,0 +1,15 @@
+# Flower Classification with CNN
+
+1.  Clone the Repo, create python environment and install "requirements.txt"
+
+2.  Download Dataset:
+    Copy the folder "flower_images" & "model" from this OneDrive:
+    
+    https://zhaw-my.sharepoint.com/:f:/g/personal/hugpas05_students_zhaw_ch/EotgayWvbW5Ajf0BS6SJVVsBKM7FD-PeyFRw_feEtljoyQ?e=oGrbVD
+
+    into the project directory
+
+
+3.  Insert OpenAi API Key into "test_model.py"
+
+You can now run the notebooks (for model building) and the test scripts ("app.py" & "model_test.py")
