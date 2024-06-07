@@ -2,8 +2,8 @@
 
 1.  Clone the Repo, create python environment and install "requirements.txt"
 
-2.  Download Dataset:
-    Copy the folder "flower_images" & "model" from this OneDrive:
+2.  Download Dataset & model:
+    Copy the folders "flower_images" & "model" from this OneDrive:
     
     https://zhaw-my.sharepoint.com/:f:/g/personal/hugpas05_students_zhaw_ch/EotgayWvbW5Ajf0BS6SJVVsBKM7FD-PeyFRw_feEtljoyQ?e=oGrbVD
 
